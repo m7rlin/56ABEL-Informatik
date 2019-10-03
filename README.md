@@ -8,7 +8,3 @@ All projects are written in C# with Visual Studio 2015.
     * Panel that changes color when you pick one or when you click on specific button or select one of the list.
 
 ## Gallery
-
-## License
-
-MIT
