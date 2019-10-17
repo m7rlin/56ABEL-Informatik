@@ -37,10 +37,16 @@ namespace MyFirstWindows
             int iUFOX = buttonUFO.Location.X;
             int iUFOY = buttonUFO.Location.Y;
 
+            
+
             if (iUFOY >= 250 || iUFOY <= 50 || iUFOX <= 50 || iUFOX >= 250)
             {
                 iRichtung = zufall.Next(1, 8);
             }
+
+            
+
+           
 
             switch (iRichtung)
             {
