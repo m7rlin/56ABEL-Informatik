@@ -65,5 +65,10 @@ namespace DirectoryTreeView
                 oDirectoryNode.Nodes.Add(new TreeNode(file.Name));
             return oDirectoryNode;
         }
+
+        private void buttonTreeViewExpandAll_Click(object sender, EventArgs e)
+        {
+            treeView.ExpandAll();
+        }
     }
 }

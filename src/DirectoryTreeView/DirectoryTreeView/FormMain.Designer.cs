@@ -73,7 +73,7 @@
             // 
             // buttonLoadView
             // 
-            this.buttonLoadView.Location = new System.Drawing.Point(945, 179);
+            this.buttonLoadView.Location = new System.Drawing.Point(502, 173);
             this.buttonLoadView.Name = "buttonLoadView";
             this.buttonLoadView.Size = new System.Drawing.Size(225, 35);
             this.buttonLoadView.TabIndex = 4;
@@ -83,18 +83,19 @@
             // 
             // buttonTreeViewExpandAll
             // 
-            this.buttonTreeViewExpandAll.Location = new System.Drawing.Point(945, 220);
+            this.buttonTreeViewExpandAll.Location = new System.Drawing.Point(502, 214);
             this.buttonTreeViewExpandAll.Name = "buttonTreeViewExpandAll";
             this.buttonTreeViewExpandAll.Size = new System.Drawing.Size(225, 35);
             this.buttonTreeViewExpandAll.TabIndex = 5;
             this.buttonTreeViewExpandAll.Text = "Expand all";
             this.buttonTreeViewExpandAll.UseVisualStyleBackColor = true;
+            this.buttonTreeViewExpandAll.Click += new System.EventHandler(this.buttonTreeViewExpandAll_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1216, 468);
+            this.ClientSize = new System.Drawing.Size(750, 468);
             this.Controls.Add(this.buttonTreeViewExpandAll);
             this.Controls.Add(this.buttonLoadView);
             this.Controls.Add(this.treeView);
